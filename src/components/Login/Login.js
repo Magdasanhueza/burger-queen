@@ -3,6 +3,8 @@ import React from "react";
 import Logo from "./Logo";
 import UserButton from "./UserButton";
 import classes from "./Login.module.css";
+//import Button from "react-bootstrap/Button";
+
 
 const Login = () => {
   return (
@@ -13,7 +15,7 @@ const Login = () => {
             <Logo />
           </div>
           <div className={classes.column}>
-            <UserButton />
+        
             <UserButton />
           </div>
         </div>

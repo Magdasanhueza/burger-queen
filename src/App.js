@@ -1,22 +1,11 @@
-import React, { Component } from "react";
-import { BrowserRouter as Router } from "react-router-dom";
-//import BigBurger from "./containers/BigBurger/BigBurger";
-//import Layout from "./components/Layout/Layout";
+import "../src/App.module.css";
 import Routes from "./Routes";
 
-class App extends Component {
-  render() {
-    return (
-      <Router>
-        <Routes></Routes>
-        {/*<div>
-          <Layout>
-            <BigBurger />
-          </Layout>
-        </div>*/}
-      </Router>
-    );
-  }
+
+function App() {
+  return <Routes />;
 }
 
 export default App;
+
+
