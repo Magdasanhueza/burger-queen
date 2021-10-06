@@ -1,0 +1,46 @@
+@media (min-device-width: 800px) and (max-device-width: 1280px) {
+    .breakfast {
+      position: absolute;
+      width: 16vh;
+      height: 22vh;
+      left: 8vh;
+      top: -25vh;
+      background: #c4c4c4;
+      border-radius: 15px;
+      text-align: center;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: bold;
+      line-height: 35px;
+    }
+    .summary {
+      position: absolute;
+      width: 82vh;
+      height: 37vh;
+      left: 5vh;
+      top: 48vh;
+      background: #fdf1cb;
+      border: 1px dashed #000000;
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+      border-radius: 21px;
+    }
+    .buttonSend {
+      position: absolute;
+      width: 14vh;
+      height: 7vh;
+      left: 63vh;
+      top: 19vh;
+      background: #ffd553;
+      border-radius: 11px;
+      font-size: 20px;
+      text-align: center;
+      font-weight: bold;
+    }
+    .image {
+      position: absolute;
+      width: 14vh;
+      height: 7vh;
+      left: 63vh;
+      top: 19vh;
+    }
+  } ;

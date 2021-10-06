@@ -1,0 +1,32 @@
+{
+    "word": [
+      {
+        "id": 1,
+        "word": "Café Americano",
+        "img": "src={queenburger/src/Data/cafe.png}",
+        "price": "1500",
+        "alt": "Café Americano"
+      },
+      {
+        "id": 2,
+        "word": "Café con Leche",
+        "price": "1800",
+        "img": "src={queenburger/src/Data/taza-de-cafe.png}",
+        "alt": "Café con Leche"
+      },
+      {
+        "id": 3,
+        "word": "Jugo natural",
+        "img": "src={queenburger/src/Data/jugo.png}",
+        "price": "1600",
+        "alt": "Jugo natural"
+      },
+      {
+        "id": 4,
+        "word": "Sandwich queso Palta",
+        "img": "src={queenburger/public/assets/sandwich.png}",
+        "price": "1300",
+        "alt": "Sandwich queso Palta"
+      }
+    ]
+  }

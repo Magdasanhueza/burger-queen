@@ -1,0 +1,43 @@
+@media (min-device-width: 800px) and (max-device-width: 1280px) {
+  .buttonMesero {
+    position: absolute;
+    justify-content: center;
+    background: #fdf1cb;
+    border: 1px dashed #000000;
+    box-sizing: border-box;
+    border-radius: 20px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 39px;
+    line-height: 90px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-left: 32vh;
+    margin-top: 31vh;
+    text-decoration: none;
+    color: black;
+    width: 30vh;
+  }
+
+  .buttonKitchen {
+    position: absolute;
+    justify-content: center;
+    background: #e4ba2f;
+    border: 1px dashed #000000;
+    box-sizing: border-box;
+    border-radius: 20px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 39px;
+    line-height: 90px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-left: 32vh;
+    margin-top: 53vh;
+    text-decoration: none;
+    color: black;
+    width: 30vh;
+  }
+}

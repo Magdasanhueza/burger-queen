@@ -10,7 +10,7 @@ const UserButton = () => {
   return (
     <>
           <Link>
-              <Button className={classes.buttonMesero} exact href="/shop">
+              <Button className={classes.buttonMesero} exact href="/table">
                   Mesero
               </Button>
           </Link>

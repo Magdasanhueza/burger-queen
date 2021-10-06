@@ -1,0 +1,107 @@
+@media (min-device-width: 800px) and (max-device-width: 1280px) {
+  body {
+    justify-content: left;
+  }
+  .containerWaiter {
+    position: absolute;
+    width: 160vh;
+    height: 26vh;
+    left: 0px;
+    top: -6vh;
+    background: hsl(45, 100%, 66%);
+  }
+  .Logo {
+    position: absolute;
+    width: 26vh;
+    height: 26vh;
+  }
+  .LogoOne {
+    position: absolute;
+    width: 19vh;
+    height: 19vh;
+    left: 27vh;
+    top: 4vh;
+  }
+  .buttonBreakfast {
+    position: absolute;
+    justify-content: center;
+    background: #fdf1cb;
+    border: 1px dashed #000000;
+    box-sizing: border-box;
+    border-radius: 20px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 39px;
+    line-height: 90px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-left: 111vh;
+    margin-top: 33vh;
+    text-decoration: none;
+    color: black;
+    width: 30vh;
+  }
+  .buttonLunch {
+    position: absolute;
+    justify-content: center;
+    background: #e4ba2f;
+    border: 1px dashed #000000;
+    box-sizing: border-box;
+    border-radius: 20px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 39px;
+    line-height: 90px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-left: 111vh;
+    margin-top: 59vh;
+    text-decoration: none;
+    color: black;
+    width: 30vh;
+  }
+  .containerForm {
+    position: absolute;
+    width: 80vh;
+    height: 53vh;
+    left: 7vh;
+    top: 28vh;
+    background: #fdf1cb;
+    border: 1px dashed #000000;
+    box-sizing: border-box;
+    border-radius: 100px;
+    text-align: center;
+    padding: 4vh;
+  }
+  input {
+    background: linear-gradient(
+        0deg,
+        rgba(196, 196, 196, 0.77),
+        rgba(196, 196, 196, 0.77)
+      ),
+      rgba(196, 196, 196, 0.77);
+    border-radius: 16px;
+    text-align: center;
+    display: flex;
+    width: 68vh;
+    height: 6vh;
+    font-size: 20px;
+    margin: 26px 44px 33px 11px;
+  }
+  .subOne {
+    position: absolute;
+    width: 20vh;
+    height: 9vh;
+    left: 32vh;
+    top: 270px;
+    background: #cf1f07;
+    border-radius: 13px;
+    font-size: 21px;
+    text-align: center;
+    padding-left: 1vh;
+
+    color: white;
+  }
+}

@@ -1,0 +1,51 @@
+@media (min-device-width: 800px) and (max-device-width: 1280px) {
+    body {
+      padding: 0%;
+      margin: 0%;
+    }
+    li {
+      display: inline-block;
+      list-style-type: none;
+      text-decoration: black;
+      margin-top: 50vh;
+    }
+    .menuOne {
+      background-color: transparent;
+      font-size: 33px;
+      font-style: normal;
+      font-weight: bold;
+      border-color: transparent;
+      position: absolute;
+      margin-top: -40vh;
+      margin-left: 56vh;
+    }
+    .menuOne:hover {
+      background-color: white;
+    }
+    .menuTwo {
+      background-color: transparent;
+      font-size: 33px;
+      font-style: normal;
+      font-weight: bold;
+      border-color: transparent;
+      position: absolute;
+      margin-top: -40vh;
+      margin-left: 74vh;
+    }
+    .menuTwo:hover {
+      background-color: white;
+    }
+    .menuTree {
+      background-color: transparent;
+      font-size: 33px;
+      font-style: normal;
+      font-weight: bold;
+      border-color: transparent;
+      position: absolute;
+      margin-top: -40vh;
+      margin-left: 94vh;
+    }
+    .menuTree:hover {
+      background-color: white;
+    }
+  } ;
