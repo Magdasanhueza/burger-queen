@@ -63,7 +63,7 @@ class BigBurger extends Component {
     const priceDeduction = INGREDIENT_PRICES[Type];
     const oldPrice = this.state.totalPrice;
     const newPrice = oldPrice - priceDeduction;
-    this.setState({ totalPrice: newPrice, ingredients: updatedIngredients });
+    this.setState({ totalPrice: newPrice, ingredients: updatedIngredients }); //setState programa una actualizacion al objeto estado de un componente
     this.updatePurchaseState(updatedIngredients);
   };
   render() {
@@ -71,7 +71,7 @@ class BigBurger extends Component {
       ...this.state.ingredients, //spread operator
     };
     for (let key in disabledInfo) {
-      disabledInfo[key] = disabledInfo[key] <= 0;
+      disabledInfo[key] = disabledInfo[key] <= 0; //key ayuda a a react a identificar que items han cambiado, son agregados o eliminados.
     }
     //{salad: true, meat:false, ...}
     return (
@@ -89,3 +89,8 @@ class BigBurger extends Component {
   }
 }
 export default BigBurger;
+
+
+//props se pasa al componente 
+//state se administra dentro del componente
+//this.state y this.props muestran el valor renderizado, osea el valor actual en pantalla
