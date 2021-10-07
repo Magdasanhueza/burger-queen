@@ -8,6 +8,7 @@ import Kitchen from "./components/Kitchen/Kitchen";
 import Table from "./components/Table/Table";
 import Breakfast from "./components/Breakfast/Breakfast";
 import Ready from "./components/Ready/Ready";
+import FirstScreen from "./components/FirstScreen/FirstScreen";
 
 
 const Routes = () => {
@@ -22,6 +23,7 @@ const Routes = () => {
           <Route path="/table" component={Table}></Route>
           <Route path="/Breakfast" component={Breakfast} />
           <Route path="/Ready" component={Ready} />
+          <Route path="/" component={FirstScreen} />
 
         </Switch>
       </Router>

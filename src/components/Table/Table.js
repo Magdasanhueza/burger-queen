@@ -4,16 +4,18 @@ import Button from "react-bootstrap/Button";
 import bigburger from "./../../assets/bigburger.jpg";
 import Logo from "./../../assets/Logo.jpg";
 import classes from "./Table.module.css";
-//import Navbar from "../components/Navbar";
+import Navbar from "./../Navbar/Navbar";
 import { Form } from "react-bootstrap";
 
 function Table() {
   return (
     <div>
+      
       <h1 className={classes.containerWaiter}>
         <img className={classes.Logo} src={bigburger} alt="Logo" />
         <img className={classes.LogoOne} src={Logo} alt="LogoOne" />
       </h1>
+      <Navbar />
       <h2 className={classes.containerForm}>
         Pedido
         <Form>

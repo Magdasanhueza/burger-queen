@@ -1,0 +1,58 @@
+@media (min-device-width: 800px) and (max-device-width: 1280px) {
+    body {
+      justify-content: left;
+    }
+    .container {
+      border-radius: 20%;
+      margin-left: 20vh;
+      margin-top: 20vh;
+      width: 58vh;
+    }
+  
+    .buttonOne {
+      position: absolute;
+      justify-content: center;
+      background: #fdf1cb;
+      border: 1px dashed #000000;
+      box-sizing: border-box;
+      border-radius: 20px;
+      font-style: normal;
+  
+      font-size: 39px;
+      line-height: 58px;
+      display: flex;
+      align-items: center;
+      text-align: center;
+      margin-left: 90vh;
+      margin-top: -19vh;
+      text-decoration: none;
+      color: black;
+    }
+    .buttonTwo {
+      position: absolute;
+      justify-content: center;
+      background: #e4ba2f;
+      border: 1px dashed #000000;
+      box-sizing: border-box;
+      border-radius: 20px;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 39px;
+      line-height: 58px;
+      display: flex;
+      align-items: center;
+      text-align: center;
+      margin-left: 90vh;
+      margin-top: -19vh;
+      text-decoration: none;
+      color: black;
+    }
+    .LogoFirst {
+      position: absolute;
+      width: 18vh;
+      height: 18vh;
+      left: 22vh;
+      top: 27vh;
+      border-radius: 35%;
+    }
+  }

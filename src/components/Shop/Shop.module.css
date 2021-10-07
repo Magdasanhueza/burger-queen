@@ -22,7 +22,7 @@
       left: 27vh;
       top: 4vh;
     }
-    .buttonBreakfast {
+    .buttonBreakfastThree {
       position: absolute;
       justify-content: center;
       background: #fdf1cb;
@@ -36,13 +36,13 @@
       display: flex;
       align-items: center;
       text-align: center;
-      margin-left: 111vh;
-      margin-top: 33vh;
+      margin-left: 96vh;
+      margin-top: -28vh;
       text-decoration: none;
       color: black;
       width: 30vh;
     }
-    .buttonLunch {
+    .buttonLunchThree {
       position: absolute;
       justify-content: center;
       background: #e4ba2f;
@@ -56,8 +56,8 @@
       display: flex;
       align-items: center;
       text-align: center;
-      margin-left: 111vh;
-      margin-top: 59vh;
+      margin-left: 96vh;
+      margin-top: -9vh;
       text-decoration: none;
       color: black;
       width: 30vh;
@@ -103,6 +103,11 @@
       padding-left: 1vh;
   
       color: white;
+    }
+    .navbarShop{
+        position: absolute;
+        margin-top: 10vh;
+        margin-left: 30vh;
     }
   }
   

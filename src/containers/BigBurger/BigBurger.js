@@ -39,15 +39,38 @@ class BigBurger extends Component {
         this.setState({totalPrice: newPrice, ingredients: updatedIngredients});
     }
 
-    removedIngredientHandler = (type) =>{
-
+    removedIngredientHandler = (Type) =>{
+        const oldCount = this.state.ingredients[Type];
+        if (oldCount <= 0) {
+            return;
+        }
+        const updatedCount = oldCount - 1;
+        const updatedIngredients = {
+            ...this.state.ingredients
+        };
+        updatedIngredients[Type] = updatedCount
+        const priceDeduction = INGREDIENT_PRICES[Type];
+        const oldPrice = this.state.totalPrice;
+        const newPrice = oldPrice - priceDeduction;
+        this.setState({totalPrice: newPrice, ingredients: updatedIngredients});
+    
     }
     render () {
+        const disabledInfo = {
+            ...this.state.ingredients //spread operator
+        };
+        for (let key in disabledInfo) {
+             disabledInfo[key] = disabledInfo[key] <= 0
+        }
+        //{salad: true, meat:false, ...}
         return (
             <Auxi>
             <Burger ingredients={this.state.ingredients} />
             <BuildControls 
-                ingredientAdded={this.addIngredientHandler} />
+                ingredientAdded={this.addIngredientHandler} 
+                ingredientRemoved= {this.removedIngredientHandler}
+                disabled={disabledInfo} />
+
         </Auxi>
         );
       

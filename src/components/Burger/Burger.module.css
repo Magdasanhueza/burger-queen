@@ -5,14 +5,23 @@
     text-align: center;
     font-weight: bold;
     font-size: 1.2rem;
+    margin-top: -81vh;
 
 }
 
+.parrafo {
+    margin-left: -36vh;
+    margin-top: 4vh;
+}
 @media (min-width: 500px) and (min-height: 401px) {
     .Burger {
         width: 450px;
         height: 400px;
-
+        margin-top: -36vh;
+    }
+    .parrafo {
+        margin-left: -81vh;
+        margin-top: 4vh;
     }
 
 }
