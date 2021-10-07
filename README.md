@@ -1,71 +1,70 @@
-# Getting Started with Create React App
+  <p align="center" width="50">
+  <img align="center" width="200" src="https://github.com/Magdasanhueza/burger-queen/blob/ejectProyect/src/assets/BurgerLogo.jpg" />
+  <h3 align="center" font size="6">  "Big Burger" </h3>
+</p>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## 1. Definición del Producto
 
-In the project directory, you can run:
+Big Burger es un pequeño restaurante de hamburguesas que se encuentra creciendo. Por lo cual solicito una plataforma enfocada a sus trabajadores (en este caso a meseros y personal que trabaje en cocina) que se pueda desplegar en formato tablet y su funcionalidad sea automatizar la toma de pedidos; de esta manera evitar errores en la toma de estos mismos y tambien agilizar y ordenar la recepión de estas ordenes en cocina.
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
 
-### `npm test`
+## 2. Historias de Usuario
+Orientamos nuestro trabajo poniendo en el centro las historias de usuario: 
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+### Historia de Usuario 1 (Mesero/a debe poder tomar pedido de cliente):
+ ”Yo como meserx quiero tomar el pedido de un cliente para no depender de mi mala memoria, para saber cuánto cobrar, y enviarlo a la cocina para evitar errores y que se puedan ir preparando en orden.”.
+   - Criterio de aceptación: "Que el mesero pueda ingresar la orden del cliente y enviarla a cocina".
+   - Definición de terminado: 
+     *Anotar nombre de cliente.
+     *Agregar productos al pedido.
+     *Eliminar productos.
+     *Ver resumen y el total de la compra.
+     *Enviar pedido a cocina (guardar en alguna base de datos).
+     *Se ve y funciona bien en una tablet
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Historia de Usuario 2 (Jefe de cocina debe ver los pedidos) :
+“Yo como jefx de cocina quiero ver los pedidos de los clientes en orden y marcar cuáles están listos para saber qué se debe cocinar y avisar a lxs meserxs que un pedido está listo para servirlo a un cliente.”.
+   - Criterio de aceptación: "Recepcionar las  ordenes de los clientes y poder avisar a mesero cuando  el pedido este terminado"
+   - Definición de terminado: 
+        *Ver los pedidos ordenados según se van haciendo.
+        *Marcar los pedidos que se han preparado y están listos para servirse.
+        *Ver el tiempo que tomó prepara el pedido desde que llegó hasta que se marcó como completado.
 
-### `npm run eject`
+### Historia de Usuario 3 (Meserx debe ver pedidos listos para servir):
+“Yo como meserx quiero ver los pedidos que están preparados para entregarlos rápidamente a los clientes que las hicieron.”
+  - Criterio de aceptación: "La app debe avisar a  mesero cuando las ordenes esten listas para servir y poner estado finalizado"
+  - Definición de terminado: 
+    *Ver listado de pedido listos para servir.
+    *Marcar pedidos que han sido entregados.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## 3. Diseño de la Interfaz del Usuario
+Para diseñar nuestra app nos basamos en las solicitudes de la hamburgueseria Big Burger. La hamburgueseria ya venia con una idea clara de como se  debia  ver  la  interfaz  de  usuario y asi  cumplir con el minimo viable.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+### Prototipo de Baja Fidelidad
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
+![Prototipo-de-Baja]( https://github.com/Magdasanhueza/burger-queen/blob/ejectProyect/src/assets/PrototipoBaja.jpeg)
+### Prototipo de Alta Fidelidad
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+![Prototipo-de-Alta](https://github.com/Magdasanhueza/burger-queen/blob/ejectProyect/src/assets/PrototipoAlta.jpeg)
 
-### Code Splitting
+### Link Prototipo Animado Figma
+https://www.figma.com/file/x9KKwFXBDm9p3TsmkaVsYK/BIG-BURGER?node-id=0%3A1
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## 6. Testeo de Usabilidad 
 
-### Analyzing the Bundle Size
+### Misiones a realizar y criterios de éxito 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+![Test-de-usabilidad](src/lib/assets/testusa.PNG)
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## 7. Link A "Big Burger"
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# burger-queen
